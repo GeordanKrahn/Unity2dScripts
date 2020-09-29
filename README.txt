@@ -39,7 +39,9 @@ Attach the GroundEnemy.cs and GroundEnemyAi.cs to your enemy gameobject
   
 The following is setting up the enemy with circle casts
   create child object for attack position
-  create child object for line of sight and attach a cicle colliders 2d with the is trigger property checked
+
+the following is for both methods
+create child object for line of sight and attach a cicle colliders 2d with the is trigger property checked
   this is the enemies player detection zone, when the player invades the colliders, the enemy will pursue the player and attack
   
 Setup your camera
